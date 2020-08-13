@@ -47,6 +47,16 @@
           </v-card-text>
         </v-card>
       </v-col>
+      <v-col cols="auto">
+        <v-card width="260">
+          <v-card-title>data table</v-card-title>
+          <v-card-text>
+            <ul>
+              <li><router-link :to="{ name: 'DataTableSimple' }">simple data table</router-link></li>
+            </ul>
+          </v-card-text>
+        </v-card>
+      </v-col>
     </v-row>
   </v-container>
 </template>

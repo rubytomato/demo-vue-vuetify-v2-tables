@@ -58,6 +58,11 @@ const routes = [
     path: '/iterator-group-custom',
     name: 'IteratorGroupCustom',
     component: () => import(/* webpackChunkName: "IteratorGroupCustom" */ '../views/IteratorGroupCustom.vue')
+  },
+  {
+    path: '/data-table-simple',
+    name: 'DataTableSimple',
+    component: () => import(/* webpackChunkName: "DataTableSimple" */ '../views/DataTableSimple.vue')
   }
 ]
 
